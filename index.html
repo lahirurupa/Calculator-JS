@@ -9,5 +9,28 @@
     <header>
         <h1>Calculator</h1>
     </header>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button id="calBtn" class="optBtn" onclick="appendToDisplay('+')">+</button>
+            <button id="calBtn" onclick="appendToDisplay(7)">7</button>
+            <button id="calBtn" onclick="appendToDisplay(8)">8</button>
+            <button id="calBtn" onclick="appendToDisplay('9')">9</button>
+            <button id="calBtn" class="optBtn" onclick="appendToDisplay('-')">-</button>
+            <button id="calBtn" onclick="appendToDisplay('4')">4</button>
+            <button id="calBtn" onclick="appendToDisplay('5')">5</button>
+            <button id="calBtn" onclick="appendToDisplay('6')">6</button>
+            <button id="calBtn" class="optBtn" onclick="appendToDisplay('*')">*</button>
+            <button id="calBtn" onclick="appendToDisplay('1')">1</button>
+            <button id="calBtn" onclick="appendToDisplay('2')">2</button>
+            <button id="calBtn" onclick="appendToDisplay('3')">3</button>
+            <button id="calBtn" class="optBtn" onclick="appendToDisplay('/')">/</button>
+            <button id="calBtn" onclick="appendToDisplay('0')">0</button>
+            <button id="calBtn" onclick="appendToDisplay('.')">.</button>
+
+            <button id="calBtn" class="optBtn" onclick="calculate()">=</button>
+            <button id="calBtn" class="optBtn" onclick="clearDisplay()">C</button>
+        </div>
+    </div>>
 </body>
 </html>
